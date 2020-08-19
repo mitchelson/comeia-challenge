@@ -1,0 +1,33 @@
+.container {
+    background:#EDEDED;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    padding: 30px 80px;
+}
+.container .top {
+    font: 500 20px Roboto;
+    color: #1692FF;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .top .topButton button{
+    border-radius: 4px;
+    color: #1692FF;
+    margin-left: 20px;
+    font: 500 18px Roboto;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #1692FF;
+    background: transparent;
+}
+.container .top .topButton button+button{
+    color: #fff;
+    border: 0;
+    background: #1692FF;
+}

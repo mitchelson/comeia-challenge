@@ -1,0 +1,97 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background:#EDEDED;
+    height: 100vh;
+    font: 700 20px Roboto;
+}
+.boxL{
+    margin-top: 100px !important;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.boxL img {
+    width: 150px;
+    height: 150px;
+}
+
+.passGroup{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px !important;
+    padding: 0 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .formLogin input{
+    border-radius: 4px;
+    margin-top: 7px;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border:0;
+  }
+  .inputSenha{
+    margin-top: 10px !important;
+    margin-right: 0px !important;
+    width: 300px !important;
+    border-radius: 5px 0 0 5px !important;
+  }
+.inputGroup {
+    color: #343434;
+    margin-bottom: 10px;
+}
+.inputGroup input {
+    font: 500 18px Roboto;
+    color :#565656;
+}
+.showSenha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0!important;
+    margin-left: 0px !important;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    color: #dcdcdc;
+    margin-top: 10px;
+    transition: 0.3s;
+    background: #fff;
+    
+  }
+  .showSenha:hover{
+    color: #007FDD;
+    opacity: 0.5;
+  }
+  .formLogin i{
+    margin-top: 0px;
+    color: #ff6161;
+    font-size: 14px;
+  }
+  .btnEntrar button{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    border:0;
+    font-size: 16px;
+    background:#007FDD;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btnEntrar button:hover {
+
+    background:#005edd;
+  }
