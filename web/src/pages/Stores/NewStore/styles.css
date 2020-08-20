@@ -1,0 +1,40 @@
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    font:500 17px Roboto;
+}
+.new {
+    margin-top: 20px;
+    padding:20px 0 20px 20px;
+    display: flex;
+    background:#fff;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.newusers .new{
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px !important;
+    height: 300px !important;
+    padding: 20px;
+    box-shadow: #1692FF;
+}
+.new button{
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 20px;
+    font: 500 18px Roboto;
+    width: 140px;
+    height: 40px;
+    border:0;
+    background:#1692FF;
+}

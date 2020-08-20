@@ -1,9 +1,9 @@
 .container {
     background:#EDEDED;
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    position: fixed;
     padding: 30px 80px;
 }
 .container .top {
@@ -17,6 +17,7 @@
     justify-content: space-between;
 }
 .container .top .topButton button{
+    cursor: pointer;
     border-radius: 4px;
     color: #1692FF;
     margin-left: 20px;
@@ -25,9 +26,50 @@
     height: 40px;
     border: 2px solid #1692FF;
     background: transparent;
+    transition: 0.3s;
 }
 .container .top .topButton button+button{
     color: #fff;
     border: 0;
     background: #1692FF;
+}
+.container .top .topButton button:hover {
+    opacity: 0.8;
+}
+.container .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    min-height: 200px;
+    background: #fff;
+}
+.container .list .titleTable{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    font:500 18px Roboto;
+    border-bottom: 3px solid #1692FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container .list .titleTable div{
+    width: 150px;
+}
+.container .list .resultTable {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    font:300 18px Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.container .list .resultTable li {
+    width: 150px;
 }
